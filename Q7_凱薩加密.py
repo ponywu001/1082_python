@@ -9,12 +9,12 @@ Created on Tue Apr 28 21:15:05 2020
 進階程式設計 HW-7
 """
 
-s = [eval(x) for x in input().split(" ")]
-for i in range(s[1]):
-    a = list(input())
+a, b = map(int, input().split(" ")
+for i in range(b):
+    s = list(input())
     
-    for j in a:
-        c = (ord(j) - s[1] - 97)
+    for j in s:
+        c = (ord(j) - b - 97)
         if c < 0:
             c += 26
         print(chr(c + 97),end='') 
